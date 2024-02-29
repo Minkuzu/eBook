@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+.container{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.img-responsive{
+    width: 100%;
+}
+.fix{
+    float: none;
+    clear: both;
+
+}
+
+.btn-add{
+    padding: 1%;
+    border-radius: 10%;
+    background-color: lightgreen;
+    text-decoration: none;
+    color:black;
+}
+.btn-password{
+    padding: 1%;
+    border-radius: 10%;
+    background-color: lightslategray;
+    text-decoration: none;
+    color: black;
+}
+.btn-update{
+    padding: 1%;
+    border-radius: 10%;
+    background-color: lightskyblue;
+    text-decoration: none;
+    color:black;
+}
+.btn-delete{
+    padding: 1%;
+    border-radius: 10%;
+    background-color: lightcoral;
+    text-decoration: none;
+    color:black;
+}
+.btn-add:hover{
+    background-color: #ff4757;
+    cursor: pointer;
+    color: white;
+}
+.btn-update:hover{
+    background-color: #ff4757;
+    cursor: pointer;
+    color: white;
+}
+.btn-delete:hover{
+    background-color: #ff4757;
+    cursor: pointer;
+    color:white
+}
+.btn-password:hover{
+    background-color: #ff4757;
+    cursor: pointer;
+    color:white
+}
+.tbl-all{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 2px solid black;
+    padding: 1%;
+}
+table tr td{
+    padding: 1%;
+}
+/* all end */
+.logo{
+    width: 4%;
+    float: left;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    display: inline;
+    padding: 1%;
+}
+.nav ul li a{
+    line-height: 60px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav ul li a:hover{
+    color: #ff4757;
+}
+/* nav end */
+
+.col-3{
+    width: 29.3%;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 0.75%;
+}
+.logo{
+    width: 4%;
+    float: left;
+}
+
+.login{
+    border: 1px solid black;
+    width: 30%;
+    margin: 5% auto;
+}
+.test{
+    float:left;
+}
